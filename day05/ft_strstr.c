@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char *ft_strstr(char *str, char *to_find)
+char	*ft_strstr(char *str, char *to_find)
 {
 	int i;
 
@@ -20,11 +20,11 @@ char *ft_strstr(char *str, char *to_find)
 	return (str);
 }
 
-int	main(void)
+int			main(void)
 {
-	char str[] = "Hello Worwoworld! aaargh...";
-	char find[] = "aar";
-	char *s;
+	char	str[] = "Hello Worwoworld! aaargh...";
+	char	find[] = "aar";
+	char	*s;
 
 	printf("%s\t->\t%s\n", find, str);
 	s = ft_strstr(str, find);
