@@ -1,7 +1,7 @@
-int	ft_atoi(char *str)
+int		ft_atoi(char *str)
 {
-	int num;
-	int sign;
+	int	num;
+	int	sign;
 
 	num = 0;
 	sign = 1;
