@@ -48,10 +48,13 @@ int	main(void)
 	char s17[]= "3.1415";
 	char s18[]= "36,6";
 	char s19[]= "+-9";
-	char s20[]= "O";
+	char s20[]= "-2-1--";
+	char s21[]= "+4+2++";
+	char s22[]= "3e10";
 
-	char *str[] = { s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20};
-	int s = 20;
+	char *str[] = { s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20,
+			s21,s22};
+	int s = 22;
 
 	int n;
 	int i;
