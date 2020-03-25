@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-int ft_is_prime(int nb)
+int		ft_is_prime(int nb)
 {
 	int i;
 	int p;
