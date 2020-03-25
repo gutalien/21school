@@ -1,4 +1,4 @@
-int ft_is_prime(int nb)
+int		ft_is_prime(int nb)
 {
 	int i;
 	int p;
